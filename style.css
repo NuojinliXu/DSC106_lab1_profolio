@@ -6,9 +6,30 @@ body {
     max-width: 60%;
     margin-inline: auto;
     --color-accent : #9cd8f8ee;
+    
 
   } 
 
+:root {
+    color-scheme: light dark;
+    
+    
+}
+.color-scheme {
+    /* position it, style it, etc. */
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    /* Add other styles as needed */
+}
+  
+.color-scheme select {
+    margin-left: 0.5rem;
+    /* style the <select> element, if needed */
+}
 img {
     width: 60%;
     height: auto;
@@ -16,6 +37,7 @@ img {
 
 }
 nav{
+    --border-color: oklch(50% 10% 200 / 40%);
     display: flex;
     border-bottom-width: 1px;
     border-bottom-style: solid;
@@ -39,7 +61,8 @@ nav a.current{
 nav a:hover {
     flex: 1;
     text-decoration: none;
-    background-color: oklch(from var(--color-accent) 95% 5% h);
+    border-bottom-color: var(--border-color);
+    background-color: color-mix(in oklch, var(--color-accent), canvas 75%);
     text-align: center;
     padding: 0.5em; 
 }
