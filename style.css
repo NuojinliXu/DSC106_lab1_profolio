@@ -72,7 +72,18 @@ nav a.current:hover{
     border-bottom-style: solid;
     border-bottom-color: var(--color-accent);
 }
-
+dl{
+    /* Set the font for elements inside this container */
+  font-size: 16px;
+  
+  /* Use CSS Grid for layout */
+  display: grid;
+  /* Create 4 equal-width columns */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* Optional spacing between columns (and rows if they exist) */
+  gap: 1rem;
+  padding-bottom: 1em;
+}
 input{
     font-family: inherit;
 }

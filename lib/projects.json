@@ -1,0 +1,63 @@
+[
+    {
+            "title": "Concept Learning and Action Recognition System",
+            "year": "2024",
+            "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+            "description": "Developed a computer vision system using PyTorch to identify objects in images and generate human-readable text explanations detailing the reasoning behind the identification process. Analyzed video frames to recognize the subject and object of each action, predicting subsequent movements based on contextual understanding. Implemented and fine-tuned advanced machine learning models to improve action prediction accuracy and enhance the transparency of reasoning processes."
+    },
+    {
+        "title": "Random Forest Regressor",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Perform Exploratory Data Analysis on the relation between sugar and protein and recipe.rating Predict Recipe rating used random forest regressor. Fin-tuning machine learning model using grid-search and cross-validation"
+    },
+    {
+        "title": "Data Scientist Salary Prediction ",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Perform Exploratory Data Analysis on the relation between Data Scientist salary and remote working status and experience level. Implement multiple linear regression to make prediction of salary. Compare the salary growth rate between data scientist and other occupations. Address the Ethics and Privacy of the data collection process and project"
+    },
+    {
+        "title": "Solar system model ",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Using C++ and OpenGL to create an animated solar system model. Implemented revolving and rotating of the earth and the moon"
+    },
+    {
+        "title": "Huffman Tree Compression",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Using C++ implement file compression using Huffman Tree. Created extremely efficient method to store the Huffman Tree, using at most 10 bits per distinct letter."
+    },
+    {
+        "title": "Repellat possimus voluptate quas.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Maiores veritatis culpa corporis est velit minima dignissimos. Iste ipsam optio quis non obcaecati corrupti temporibus nulla reiciendis, exercitationem placeat, aliquam necessitatibus consectetur doloribus pariatur, tempora odit eum sequi vero."
+    },
+    {
+        "title": "Dolor similique eveniet magni.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Non, animi, cumque quos labore alias quod perferendis sequi optio consequatur vitae nihil iure, quisquam est! Provident, fuga impedit blanditiis facere doloremque porro et quia consectetur dolor saepe explicabo a."
+    },
+    {
+        "title": "Sed odio perspiciatis facilis.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Perspiciatis tenetur incidunt, optio omnis odit amet voluptatem molestias maiores est esse aliquam assumenda fuga praesentium quas maxime accusamus architecto iure delectus eaque voluptate nostrum iusto. Molestias similique soluta odio!"
+    },
+    {
+        "title": "Possimus, cum? Sequi, velit.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Consectetur culpa iusto deserunt numquam minima incidunt non aspernatur error fuga magnam, suscipit explicabo officiis officia, aut aperiam blanditiis ipsum saepe ducimus, expedita omnis dolore enim delectus excepturi? Laborum, quam!"
+    },
+    {
+        "title": "Nobis neque dicta voluptate?",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Nostrum fugiat labore perspiciatis iure harum sunt, quo hic! Animi harum illum quo amet dolore cupiditate rem sunt perspiciatis fugiat assumenda nulla tempora porro incidunt cumque unde, blanditiis debitis pariatur."
+    },
+    {
+        "title": "Obcaecati ducimus eius officia!",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Reiciendis, ducimus aliquam porro laudantium voluptatem laborum ipsa maiores quisquam, minima fugiat tenetur molestiae provident incidunt, ipsam cupiditate quibusdam distinctio harum magnam deleniti voluptatibus qui quae consectetur? Distinctio, exercitationem ullam?"
+    },
+    {
+        "title": "Aperiam architecto quasi necessitatibus?",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Cum corrupti quae corporis laborum autem tenetur aliquid nemo beatae repellendus maxime labore saepe animi cumque earum nisi debitis, totam obcaecati alias blanditiis. Est delectus eos quibusdam fugit impedit rem."
+    }
+]
