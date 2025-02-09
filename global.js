@@ -95,18 +95,7 @@ export async function fetchJSON(url) {
     throw new Error(`Failed to fetch projects: ${response.statusText}`);
 }
 }
-//fetchJSON('./lib/projects.json')
-/*
-export function renderProjects(project, containerElement) {
-    containerElement.innerHTML = '';
-    const article = document.createElement('article');
-    article.innerHTML = `
-    <h3>${project.title}</h3>
-    <img src="${project.image}" alt="${project.title}">
-    <p>${project.description}</p>`;
-    containerElement.appendChild(article);
 
-}*/
 export function renderProjects(projects, containerElement, headingLevel = 'h2') {
     containerElement.innerHTML = '';
     for (let project of projects){
@@ -114,13 +103,16 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
         article.innerHTML = `
         <${headingLevel}>${project.title}</${headingLevel}>
         <img src="${project.image}" alt="${project.title}">
-        <p>${project.description}</p>`;
+        
+        <div><p>${project.description}</p>
+        <p>${project.year}</p>
+        </div>`;
         containerElement.appendChild(article);
     }
 }
 export async function fetchGitHubData(username) {
     return fetchJSON(`https://api.github.com/users/${username}`);
-  }
+}
 
 
 

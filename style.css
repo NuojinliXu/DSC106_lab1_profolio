@@ -212,3 +212,78 @@ form button{
         }
     }
 }
+
+#projects-plot {
+    max-width: 20em;
+    margin-block: 2em;
+  
+    overflow: visible;
+ }
+
+
+.swatch {
+    aspect-ratio: 1/1;
+    width: 10px;
+    height: 10px;
+    background-color: var(--color);
+    margin-inline: 5px;
+}
+.legend{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9em, auto));
+    border-color: lightgray;
+    border-style: solid;
+    flex: 1;
+}
+.legend_item{
+    margin-block: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    
+}
+
+em{
+    font-style: italic;
+    color: grey;
+    margin-inline: 3px;
+}
+
+.container{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+
+.search_container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px;
+}
+
+.searchBar{
+    width: 90%;
+    height: 50%;
+    font-size: large;
+}
+
+&:has(path:hover) {
+    path:not(:hover) {
+      opacity: 0.5;
+    }
+}
+path {
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.selected {
+    --color: rgb(237, 16, 245) !important;
+  
+    &:is(path) {
+      fill: var(--color);
+    }
+  }
