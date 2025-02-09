@@ -1,5 +1,6 @@
 import { fetchJSON, renderProjects } from '../global.js';
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm";
+console.log(d3)
 const projects = await fetchJSON('../lib/projects.json');
 const projectsContainer = document.querySelector('.projects');
 renderProjects(projects, projectsContainer, 'h2');
@@ -69,7 +70,7 @@ function renderPieChart(projectsGiven) {
     })
 }
 
-renderPieChart(projects)
+
 
 
 let searchInput = document.querySelector('.searchBar');
@@ -86,4 +87,7 @@ searchInput.addEventListener('input', (event) => {
     renderPieChart(filtered)
 
 });
+
+renderPieChart(projects)
+
 
