@@ -88,7 +88,7 @@ function displayStats() {
 }
 function CreateScatterPlot() {
     const [minLines, maxLines] = d3.extent(commits, (d) => d.totalLines);
-    const rScale = d3.scaleSqrt()
+    const rScale = d3.scaleLog()
         .domain([minLines, maxLines])
         .range([2, 30]); // Adjust as needed
 
